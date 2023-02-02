@@ -36,7 +36,7 @@ class ArticleControllerTest {
                 .andExpect(MockMvcResultMatchers.model().attributeExists("articles"));
     }
 
-    @Disabled("구현 중")
+    // @Disabled("구현 중")
     @DisplayName("[view] [GET] 게시글 상세 페이지 - 정상 호출")
     @Test
     public void givenNothing_wheRequestingArticleView_thenReturnsArticleView() throws Exception {
